@@ -3,8 +3,8 @@ This project demonstrates NESTED LOOPS (i.e., loops within loops)
 in the context of PRINTING on the CONSOLE.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Drew Borman.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -38,6 +38,9 @@ def run_test_triangle_right_justified():
 
 
 def triangle_right_justified(r):
+    for k in range (len(r)):
+        
+
     """
     Prints a triangle of numbers, with r rows.
     It looks the same as a previous example, but right-justified.
