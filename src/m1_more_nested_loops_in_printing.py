@@ -38,7 +38,10 @@ def run_test_triangle_right_justified():
 
 
 def triangle_right_justified(r):
-    for k in range (len(r)):
+    for k in range(r):
+        for j in range(k+1):
+            print(j+1, end='')
+        print()
         
 
     """
@@ -99,6 +102,10 @@ def run_test_triangle_upside_down():
 
 
 def triangle_upside_down(r):
+    for k in range(r):
+        for j in range(r-k):
+            print(j+1, end='')
+        print()
     """
     Prints a triangle of numbers, with r rows.
     It looks the same as the previous problem,
@@ -143,6 +150,10 @@ def run_test_vee():
 
 
 def vee(r):
+    for k in range(r+1):
+        for j in range(r-k):
+            print(j+1, "-", j+1, end='')
+        print()
     """
     Prints a "V" of numbers, with r rows.
     It looks like this example, when r = 5:
